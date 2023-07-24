@@ -1,0 +1,513 @@
+0	13:37:48.1670384	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	2	AF:  Unregistered Entity created Actor ABC ViewModel.lvclass of type ABC ViewModel.lvlib:ABC ViewModel.lvclass
+1	13:37:48.1671342	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640003 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+2	13:37:48.4562845	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640003 sent IViewModel.lvlib:Launch Root Model Msg.lvclass to Unregistered Entity 
+3	13:37:48.4564766	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640003 sent ActorEvents.lvlib:Launch Event Handlers Msg.lvclass to Unregistered Entity 
+4	13:37:48.4565343	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640003 sent IViewable.lvlib:Initialize Front Panel Msg.lvclass to Unregistered Entity 
+5	13:37:48.4566488	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640003 sent IViewManager.lvlib:Launch Nested Views Msg.lvclass to Unregistered Entity 
+6	13:37:48.4570193	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Unregistered Entity sent IViewable.lvlib:Open Front Panel Msg.lvclass to Unregistered Entity 
+7	13:37:49.1036324	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+8	13:37:49.1037745	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor ABC ViewModel.lvclass received IViewModel.lvlib:Launch Root Model Msg.lvclass
+9	13:37:49.1556410	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	1	AF:  Actor ABC ViewModel.lvclass created Actor Medator Actor of type Mediator.lvlib:Mediator.lvclass
+10	13:37:49.1556916	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640006 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+11	13:37:49.1557579	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640006 sent IMediator.lvlib:Start Bus Monitor Msg.lvclass to Unregistered Entity 
+12	13:37:49.1558871	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+13	13:37:49.1560511	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	3	AF:  Actor Medator Actor received IMediator.lvlib:Start Bus Monitor Msg.lvclass
+14	13:37:49.1561670	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	3	AF:  Actor Medator Actor sent Actor Framework.lvlib:Stop Msg.lvclass to Unregistered Entity 
+15	13:37:49.1562275	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	7	1	AF:  Actor ABC ViewModel.lvclass created Actor Model Actor of type ABC Model.lvlib:ABC Model.lvclass
+16	13:37:49.1563158	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	1	AF:  Actor 6640005 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+17	13:37:49.1566286	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	0	AF:  Actor 6640005 sent ABC Model.lvlib:Launch Aggregate Models Msg.lvclass to Unregistered Entity 
+18	13:37:49.1567025	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	2	AF:  Actor 6640005 sent IModel.lvlib:Launch Nested Models Msg.lvclass to Unregistered Entity 
+19	13:37:49.1567592	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640005 sent IMediator.lvlib:Publish Msg.lvclass to Actor Medator Actor
+20	13:37:49.1568112	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640005 sent IMediator.lvlib:Publish Msg.lvclass to Actor Medator Actor
+21	13:37:49.1572175	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+22	13:37:49.1572880	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor ABC ViewModel.lvclass received IViewManager.lvlib:Launch Nested Views Msg.lvclass
+23	13:37:49.1573367	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor Model Actor received ABC Model.lvlib:Launch Aggregate Models Msg.lvclass
+24	13:37:49.2869720	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	7	0	AF:  Actor Medator Actor created Actor 6640007 of type Mediator.lvlib:MediatorBusMonitor.lvclass
+25	13:37:49.2870597	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor 6640007 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+26	13:37:49.2871923	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor 6640007 sent ActorEvents.lvlib:Launch Event Handlers Msg.lvclass to Unregistered Entity 
+27	13:37:49.2872695	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor 6640007 sent IViewable.lvlib:Initialize Front Panel Msg.lvclass to Unregistered Entity 
+28	13:37:49.2973961	AF Debug.lvlib:Generate Trace for New Time Delayed Message.vi	User Defined	5	2	AF:  Actor 6640007 created Time-Delayed Message 31E00009 for Mediator.lvlib:Update Front Panel Msg.lvclass
+29	13:37:49.2974863	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor Medator Actor received IMediator.lvlib:Publish Msg.lvclass
+30	13:37:49.2977361	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor Medator Actor sent Mediator.lvlib:Notify Subscribers Msg.lvclass to Unregistered Entity 
+31	13:37:49.4730439	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	1	AF:  Actor ABC ViewModel.lvclass created Actor 6640008 of type MainView.lvlib:MainView.lvclass
+32	13:37:49.4731173	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640008 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+33	13:37:49.4732518	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640008 sent ActorEvents.lvlib:Launch Event Handlers Msg.lvclass to Unregistered Entity 
+34	13:37:49.4733161	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640008 sent IViewable.lvlib:Initialize Front Panel Msg.lvclass to Unregistered Entity 
+35	13:37:49.4734220	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640008 sent IViewManager.lvlib:Launch Nested Views Msg.lvclass to Unregistered Entity 
+36	13:37:49.4738082	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor ABC ViewModel.lvclass received ActorEvents.lvlib:Launch Event Handlers Msg.lvclass
+37	13:37:49.4818053	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	3	AF:  Actor Model Actor created Actor 6640009 of type HotLiquorTank.lvlib:HotLiquorTank.lvclass
+38	13:37:49.4818720	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640009 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+39	13:37:49.4819693	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640009 sent IModel.lvlib:Launch Nested Models Msg.lvclass to Unregistered Entity 
+40	13:37:49.4820833	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+41	13:37:49.4821944	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	3	AF:  Actor 6640009 received IModel.lvlib:Launch Nested Models Msg.lvclass
+42	13:37:49.4895639	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640008 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+43	13:37:49.4896597	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640008 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+44	13:37:49.4897203	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640008 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+45	13:37:49.4897832	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640008 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+46	13:37:49.4899067	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640008 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+47	13:37:49.4912552	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	7	2	AF:  Actor Medator Actor created Actor 6640010 of type Mediator.lvlib:Topic.lvclass
+48	13:37:49.4917860	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	2	AF:  Actor 6640010 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+49	13:37:49.4926700	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+50	13:37:49.4932127	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	3	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640010
+51	13:37:49.4936046	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor Medator Actor sent Mediator.lvlib:Notify Subscribers Msg.lvclass to Actor 6640010
+52	13:37:49.4936308	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	2	AF:  Actor 6640010 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+53	13:37:49.4942345	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	0	AF:  Actor 6640010 sent IObserver.lvlib:Observe Data Msg.lvclass to Unregistered Entity 
+54	13:37:49.4942503	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	3	AF:  Actor Medator Actor received IMediator.lvlib:Publish Msg.lvclass
+55	13:37:49.4947686	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	3	AF:  Actor 6640010 received Mediator.lvlib:Notify Subscribers Msg.lvclass
+56	13:37:49.4947814	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	8	0	AF:  Actor Medator Actor sent Mediator.lvlib:Notify Subscribers Msg.lvclass to Unregistered Entity 
+57	13:37:49.4953408	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	3	AF:  Actor 6640010 sent IObserver.lvlib:Observe Data Msg.lvclass to Unregistered Entity 
+58	13:37:49.5000963	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	0	AF:  Actor ABC ViewModel.lvclass created Actor 6640011 of type ActorEvents.lvlib:VIEventHandler.lvclass
+59	13:37:49.5001626	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640011 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+60	13:37:49.5003643	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	8	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+61	13:37:49.5304598	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	2	AF:  Actor Model Actor created Actor 6640012 of type MashTun.lvlib:MashTun.lvclass
+62	13:37:49.5305156	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor 6640012 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+63	13:37:49.5306034	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor 6640012 sent IModel.lvlib:Launch Nested Models Msg.lvclass to Unregistered Entity 
+64	13:37:49.5306844	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	1	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+65	13:37:49.5307536	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+66	13:37:49.5308342	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	1	AF:  Actor 6640007 received ActorEvents.lvlib:Launch Event Handlers Msg.lvclass
+67	13:37:49.5309562	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	1	AF:  Actor 6640012 received IModel.lvlib:Launch Nested Models Msg.lvclass
+68	13:37:49.5652332	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+69	13:37:49.5655026	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	3	AF:  Actor 6640008 received IViewManager.lvlib:Launch Nested Views Msg.lvclass
+70	13:37:49.5749421	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	1	AF:  Actor Medator Actor created Actor 6640013 of type Mediator.lvlib:Topic.lvclass
+71	13:37:49.5753321	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640013 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+72	13:37:49.5758118	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	1	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+73	13:37:49.5762281	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	1	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640013
+74	13:37:49.5764312	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	1	AF:  Actor 6640013 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+75	13:37:49.5764708	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor Medator Actor sent Mediator.lvlib:Notify Subscribers Msg.lvclass to Actor 6640013
+76	13:37:49.5765910	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	3	AF:  Actor 6640013 sent IObserver.lvlib:Observe Data Msg.lvclass to Actor 6640007
+77	13:37:49.5767407	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	0	AF:  Actor 6640013 received Mediator.lvlib:Notify Subscribers Msg.lvclass
+78	13:37:49.5768885	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	0	AF:  Actor 6640013 sent IObserver.lvlib:Observe Data Msg.lvclass to Actor 6640007
+79	13:37:49.5789260	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	0	AF:  Actor ABC ViewModel.lvclass created Actor 6640014 of type ActorEvents.lvlib:VIEventHandler.lvclass
+80	13:37:49.5793232	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640014 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+81	13:37:49.5800757	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	15	1	AF:  Actor ABC ViewModel.lvclass received IViewable.lvlib:Initialize Front Panel Msg.lvclass
+82	13:37:49.5800952	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	3	AF:  Actor 6640014 sent Actor Framework.lvlib:Stop Msg.lvclass to Unregistered Entity 
+83	13:37:49.5802187	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	15	1	AF:  Actor ABC ViewModel.lvclass sent IViewable.lvlib:Insert Front Panel Msg.lvclass to Actor 6640008
+84	13:37:49.5802240	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+85	13:37:49.5803222	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	15	1	AF:  Actor ABC ViewModel.lvclass received IViewable.lvlib:Open Front Panel Msg.lvclass
+86	13:37:49.5803756	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor 6640014 received Actor Framework.lvlib:Stop Msg.lvclass
+87	13:37:49.5806450	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640014 sent Actor Framework.lvlib:Last Ack.lvclass to Actor ABC ViewModel.lvclass
+88	13:37:49.5807085	AF Debug.lvlib:Generate Trace for Stopped Actor.vi	User Defined	6	3	AF:  Actor 6640014 has stopped
+89	13:37:49.5817389	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	1	AF:  Actor Model Actor created Actor 6640015 of type BoilKettle.lvlib:BoilKettle.lvclass
+90	13:37:49.5817790	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640015 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+91	13:37:49.5818243	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640015 sent IModel.lvlib:Launch Nested Models Msg.lvclass to Unregistered Entity 
+92	13:37:49.5819530	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	0	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+93	13:37:49.5821704	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	0	AF:  Actor 6640015 received IModel.lvlib:Launch Nested Models Msg.lvclass
+94	13:37:49.5822095	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	3	AF:  Actor 6640007 created Actor 6640014 of type ActorEvents.lvlib:ControlEventHandler.lvclass
+95	13:37:49.5822844	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640014 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+96	13:37:49.5825257	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+97	13:37:49.6624269	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor ABC ViewModel.lvclass received Actor Framework.lvlib:Last Ack.lvclass
+98	13:37:49.6706547	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	7	3	AF:  Actor 6640008 created Actor 6640016 of type NavigationView.lvlib:NavigationView.lvclass
+99	13:37:49.6707224	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	3	AF:  Actor 6640016 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+100	13:37:49.6708006	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	3	AF:  Actor 6640016 sent ActorEvents.lvlib:Launch Event Handlers Msg.lvclass to Unregistered Entity 
+101	13:37:49.6708579	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	3	AF:  Actor 6640016 sent IViewable.lvlib:Initialize Front Panel Msg.lvclass to Unregistered Entity 
+102	13:37:49.6818285	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	7	2	AF:  Actor Model Actor created Actor 6640017 of type SimulatedChiller.lvlib:Chiller.lvclass
+103	13:37:49.6818909	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	2	AF:  Actor 6640017 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+104	13:37:49.6819887	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	2	AF:  Actor 6640017 sent IModel.lvlib:Launch Nested Models Msg.lvclass to Unregistered Entity 
+105	13:37:49.6820774	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	2	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+106	13:37:49.6822137	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	2	AF:  Actor 6640017 received IModel.lvlib:Launch Nested Models Msg.lvclass
+107	13:37:49.7110590	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	1	AF:  Actor 6640007 created Actor 6640018 of type ActorEvents.lvlib:VIEventHandler.lvclass
+108	13:37:49.7111229	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor 6640018 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+109	13:37:49.7113938	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+110	13:37:49.7114434	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	0	AF:  Actor 6640007 received IViewable.lvlib:Initialize Front Panel Msg.lvclass
+111	13:37:49.7115359	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	0	AF:  Actor 6640007 received IObserver.lvlib:Observe Data Msg.lvclass
+112	13:37:49.7116899	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	0	AF:  Actor 6640007 received IObserver.lvlib:Observe Data Msg.lvclass
+113	13:37:49.7118101	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	0	AF:  Actor 6640007 received IObserver.lvlib:Observe Data Msg.lvclass
+114	13:37:49.7119369	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	0	AF:  Actor 6640007 received IObserver.lvlib:Observe Data Msg.lvclass
+115	13:37:49.7571010	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+116	13:37:49.7572383	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor 6640016 received ActorEvents.lvlib:Launch Event Handlers Msg.lvclass
+117	13:37:49.7618536	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	1	AF:  Actor 6640008 created Actor 6640019 of type ControlView.lvlib:ControlView.lvclass
+118	13:37:49.7620234	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor 6640019 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+119	13:37:49.7621145	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor 6640019 sent ActorEvents.lvlib:Launch Event Handlers Msg.lvclass to Unregistered Entity 
+120	13:37:49.7621760	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor 6640019 sent IViewable.lvlib:Initialize Front Panel Msg.lvclass to Unregistered Entity 
+121	13:37:49.7699942	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	1	AF:  Actor Model Actor created Actor 6640020 of type ManualPlumbing.lvlib:Plumbing.lvclass
+122	13:37:49.7700429	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor 6640020 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+123	13:37:49.7701363	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor 6640020 sent ManualPlumbing.lvlib:Launch Valves Msg.lvclass to Unregistered Entity 
+124	13:37:49.7701940	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor 6640020 sent IModel.lvlib:Launch Nested Models Msg.lvclass to Unregistered Entity 
+125	13:37:49.7703414	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	1	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+126	13:37:49.7705416	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	1	AF:  Actor 6640020 received ManualPlumbing.lvlib:Launch Valves Msg.lvclass
+127	13:37:49.7721457	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	3	AF:  Actor 6640016 created Actor 6640021 of type ActorEvents.lvlib:ControlEventHandler.lvclass
+128	13:37:49.7722096	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	3	AF:  Actor 6640021 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+129	13:37:49.7735567	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+130	13:37:49.7736277	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	0	AF:  Actor 6640016 received IViewable.lvlib:Initialize Front Panel Msg.lvclass
+131	13:37:49.7738480	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	8	2	AF:  Actor 6640019 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+132	13:37:49.7760329	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	3	AF:  Actor 6640008 created Actor 6640022 of type RecipeView.lvlib:RecipeView.lvclass
+133	13:37:49.7761096	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640022 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+134	13:37:49.7762022	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640022 sent ActorEvents.lvlib:Launch Event Handlers Msg.lvclass to Unregistered Entity 
+135	13:37:49.7762637	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640022 sent IViewable.lvlib:Initialize Front Panel Msg.lvclass to Unregistered Entity 
+136	13:37:49.7763638	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640022 sent IViewManager.lvlib:Launch Nested Views Msg.lvclass to Unregistered Entity 
+137	13:37:49.7815198	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	3	AF:  Actor Model Actor created Actor 6640023 of type AmbitiousBrewing ProcessModel.lvlib:AmbitiousBrewing ProcessModel.lvclass
+138	13:37:49.7815895	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640023 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+139	13:37:49.7817544	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640023 sent AmbitiousBrewing ProcessModel.lvlib:Register Msg.lvclass to Unregistered Entity 
+140	13:37:49.7818040	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640023 sent IModel.lvlib:Launch Nested Models Msg.lvclass to Unregistered Entity 
+141	13:37:49.7819938	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+142	13:37:49.7820239	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor Model Actor received IModel.lvlib:Launch Nested Models Msg.lvclass
+143	13:37:49.7821335	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640023 received AmbitiousBrewing ProcessModel.lvlib:Register Msg.lvclass
+144	13:37:49.7823557	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640023 sent IObserver.lvlib:Subscribe Msg.lvclass to Actor 6640023
+145	13:37:49.7824788	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640023 sent IObserver.lvlib:Subscribe Msg.lvclass to Actor 6640023
+146	13:37:49.7826027	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640023 sent IObserver.lvlib:Subscribe Msg.lvclass to Actor 6640023
+147	13:37:49.7826781	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640023 received IModel.lvlib:Launch Nested Models Msg.lvclass
+148	13:37:49.7828612	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640023 received IObserver.lvlib:Subscribe Msg.lvclass
+149	13:37:49.7829589	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640023 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+150	13:37:49.7830305	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+151	13:37:49.7831869	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+152	13:37:49.7832779	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640023 received IObserver.lvlib:Subscribe Msg.lvclass
+153	13:37:49.7833614	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640023 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+154	13:37:49.7834372	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640023 received IObserver.lvlib:Subscribe Msg.lvclass
+155	13:37:49.7835116	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640023 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+156	13:37:49.8269190	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	0	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+157	13:37:49.8272557	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	3	AF:  Actor 6640019 received ActorEvents.lvlib:Launch Event Handlers Msg.lvclass
+158	13:37:49.8295626	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	2	AF:  Actor 6640008 created Actor 6640024 of type SettingsView.lvlib:SettingsView.lvclass
+159	13:37:49.8300547	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640024 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+160	13:37:49.8304557	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor 6640024 sent ActorEvents.lvlib:Launch Event Handlers Msg.lvclass to Unregistered Entity 
+161	13:37:49.8305578	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor 6640024 sent IViewable.lvlib:Initialize Front Panel Msg.lvclass to Unregistered Entity 
+162	13:37:49.9998412	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	2	AF:  Actor 6640020 created Actor 6640025 of type ValveModel.lvlib:ValveModel.lvclass
+163	13:37:49.9999294	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor 6640025 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+164	13:37:50.0000138	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640025 sent IModel.lvlib:Launch Nested Models Msg.lvclass to Unregistered Entity 
+165	13:37:50.0001401	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	0	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+166	13:37:50.0002808	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	0	AF:  Actor 6640025 received IModel.lvlib:Launch Nested Models Msg.lvclass
+167	13:37:50.0682954	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	7	0	AF:  Actor Medator Actor created Actor 6640026 of type Mediator.lvlib:Topic.lvclass
+168	13:37:50.0683822	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	0	AF:  Actor 6640026 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+169	13:37:50.0685439	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+170	13:37:50.0686650	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	8	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640026
+171	13:37:50.0687661	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	8	3	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640026
+172	13:37:50.0687933	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor 6640026 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+173	13:37:50.0688333	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	8	3	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+174	13:37:50.0689382	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	0	AF:  Actor 6640026 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+175	13:37:50.0689592	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+176	13:37:50.0723009	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	0	AF:  Actor 6640019 created Actor 6640027 of type ActorEvents.lvlib:ControlEventHandler.lvclass
+177	13:37:50.0723834	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640027 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+178	13:37:50.0727496	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	8	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+179	13:37:50.0728192	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor 6640019 received IViewable.lvlib:Initialize Front Panel Msg.lvclass
+180	13:37:50.0730166	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor 6640019 received IObserver.lvlib:Subscribe Msg.lvclass
+181	13:37:50.0735530	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640019 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+182	13:37:50.1320834	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+183	13:37:50.1322879	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640022 received IViewManager.lvlib:Launch Nested Views Msg.lvclass
+184	13:37:50.1335315	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	7	1	AF:  Actor 6640008 created Actor 6640028 of type TemperaturePlotView.lvlib:TemperaturePlotView.lvclass
+185	13:37:50.1336269	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	1	AF:  Actor 6640028 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+186	13:37:50.1337356	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	1	AF:  Actor 6640028 sent ActorEvents.lvlib:Launch Event Handlers Msg.lvclass to Unregistered Entity 
+187	13:37:50.1337642	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	1	AF:  Actor 6640028 sent TemperaturePlotView.lvlib:Update Plot Msg.lvclass to Unregistered Entity 
+188	13:37:50.1337938	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	1	AF:  Actor 6640028 sent IViewable.lvlib:Initialize Front Panel Msg.lvclass to Unregistered Entity 
+189	13:37:50.1359043	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	2	AF:  Actor 6640020 created Actor 6640029 of type ValveModel.lvlib:ValveModel.lvclass
+190	13:37:50.1359653	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640029 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+191	13:37:50.1360364	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640029 sent IModel.lvlib:Launch Nested Models Msg.lvclass to Unregistered Entity 
+192	13:37:50.1361484	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+193	13:37:50.1362605	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	3	AF:  Actor 6640029 received IModel.lvlib:Launch Nested Models Msg.lvclass
+194	13:37:50.1498155	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	0	AF:  Actor Medator Actor created Actor 6640030 of type Mediator.lvlib:Topic.lvclass
+195	13:37:50.1499185	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640030 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+196	13:37:50.1500353	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+197	13:37:50.1502757	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640030
+198	13:37:50.1503438	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640030
+199	13:37:50.1503624	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	0	AF:  Actor 6640030 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+200	13:37:50.1504216	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	8	3	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+201	13:37:50.1504869	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	0	AF:  Actor 6640030 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+202	13:37:50.1505503	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+203	13:37:50.1540908	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640028 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+204	13:37:50.1542072	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	1	AF:  Actor 6640028 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+205	13:37:50.1543335	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640028 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+206	13:37:50.1544232	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	1	AF:  Actor 6640028 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+207	13:37:50.1545424	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640028 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+208	13:37:50.1546487	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640028 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+209	13:37:50.1560511	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	0	AF:  Actor 6640008 created Actor 6640031 of type SystemView.lvlib:SystemView.lvclass
+210	13:37:50.1561169	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640031 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+211	13:37:50.1561861	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640031 sent ActorEvents.lvlib:Launch Event Handlers Msg.lvclass to Unregistered Entity 
+212	13:37:50.1562233	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640031 sent IViewable.lvlib:Initialize Front Panel Msg.lvclass to Unregistered Entity 
+213	13:37:50.1898059	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+214	13:37:50.1906003	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	3	AF:  Actor 6640024 received ActorEvents.lvlib:Launch Event Handlers Msg.lvclass
+215	13:37:50.1907224	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	3	AF:  Actor 6640024 received IViewable.lvlib:Initialize Front Panel Msg.lvclass
+216	13:37:50.1941642	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	3	AF:  Actor 6640020 created Actor 6640032 of type ValveModel.lvlib:ValveModel.lvclass
+217	13:37:50.1942377	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640032 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+218	13:37:50.1943473	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor 6640032 sent IModel.lvlib:Launch Nested Models Msg.lvclass to Unregistered Entity 
+219	13:37:50.1944932	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+220	13:37:50.1946368	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	3	AF:  Actor 6640032 received IModel.lvlib:Launch Nested Models Msg.lvclass
+221	13:37:50.1971354	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	1	AF:  Actor Medator Actor created Actor 6640033 of type Mediator.lvlib:Topic.lvclass
+222	13:37:50.1972260	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor 6640033 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+223	13:37:50.1974539	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	1	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+224	13:37:50.1974573	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+225	13:37:50.1975622	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640033
+226	13:37:50.1976323	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	8	3	AF:  Actor 6640033 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+227	13:37:50.1976828	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+228	13:37:50.1978063	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640033 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+229	13:37:50.1978373	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640013
+230	13:37:50.1978917	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640013 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+231	13:37:50.2290139	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+232	13:37:50.2291669	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640028 received ActorEvents.lvlib:Launch Event Handlers Msg.lvclass
+233	13:37:50.2292799	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640028 received TemperaturePlotView.lvlib:Update Plot Msg.lvclass
+234	13:37:50.2294545	AF Debug.lvlib:Generate Trace for New Time Delayed Message.vi	User Defined	7	3	AF:  Actor 6640028 created Time-Delayed Message 32500004 for TemperaturePlotView.lvlib:Update Plot Msg.lvclass
+235	13:37:50.2318654	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	2	AF:  Actor 6640008 created Actor 6640034 of type SimulatedIOView.lvlib:SimulatedIO.lvclass
+236	13:37:50.2319183	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640034 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+237	13:37:50.2319679	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640034 sent ActorEvents.lvlib:Launch Event Handlers Msg.lvclass to Unregistered Entity 
+238	13:37:50.2320013	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640034 sent IViewable.lvlib:Initialize Front Panel Msg.lvclass to Unregistered Entity 
+239	13:37:50.2322206	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640008 received ActorEvents.lvlib:Launch Event Handlers Msg.lvclass
+240	13:37:50.2323079	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	3	AF:  Actor 6640008 received IViewable.lvlib:Initialize Front Panel Msg.lvclass
+241	13:37:50.2324619	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640008 sent IViewable.lvlib:Insert Front Panel Msg.lvclass to Actor 6640019
+242	13:37:50.2325215	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	3	AF:  Actor 6640008 sent IViewable.lvlib:Insert Front Panel Msg.lvclass to Actor 6640016
+243	13:37:50.2325482	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640019 received IViewable.lvlib:Insert Front Panel Msg.lvclass
+244	13:37:50.2326002	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	15	3	AF:  Actor 6640008 sent IViewable.lvlib:Insert Front Panel Msg.lvclass to Unregistered Entity 
+245	13:37:50.2326331	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	15	3	AF:  Actor 6640016 received IViewable.lvlib:Insert Front Panel Msg.lvclass
+246	13:37:50.2327399	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640008 received IObserver.lvlib:Subscribe Msg.lvclass
+247	13:37:50.2328305	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640008 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+248	13:37:50.2329034	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+249	13:37:50.2330775	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+250	13:37:50.2331643	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640008 received IObserver.lvlib:Subscribe Msg.lvclass
+251	13:37:50.2332406	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640008 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+252	13:37:50.2333064	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640008 received IObserver.lvlib:Subscribe Msg.lvclass
+253	13:37:50.2333774	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640008 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+254	13:37:50.2334404	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640008 received IObserver.lvlib:Subscribe Msg.lvclass
+255	13:37:50.2335104	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640008 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+256	13:37:50.2335739	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640008 received IObserver.lvlib:Subscribe Msg.lvclass
+257	13:37:50.2336430	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640008 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+258	13:37:50.2337083	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640008 received IViewable.lvlib:Insert Front Panel Msg.lvclass
+259	13:37:50.2445526	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	1	AF:  Actor 6640020 created Actor 6640035 of type ValveModel.lvlib:ValveModel.lvclass
+260	13:37:50.2446193	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor 6640035 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+261	13:37:50.2446908	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor 6640035 sent IModel.lvlib:Launch Nested Models Msg.lvclass to Unregistered Entity 
+262	13:37:50.2498669	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+263	13:37:50.2500639	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	1	AF:  Actor 6640035 received IModel.lvlib:Launch Nested Models Msg.lvclass
+264	13:37:50.2512822	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	0	AF:  Actor 6640022 created Actor 6640036 of type RecipeButtons.lvlib:RecipeButtons.lvclass
+265	13:37:50.2513165	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+266	13:37:50.2513690	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640036 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+267	13:37:50.2514481	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640036 sent ActorEvents.lvlib:Launch Event Handlers Msg.lvclass to Unregistered Entity 
+268	13:37:50.2514882	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640036 sent IViewable.lvlib:Initialize Front Panel Msg.lvclass to Unregistered Entity 
+269	13:37:50.2550702	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	1	AF:  Actor Medator Actor created Actor 6640037 of type Mediator.lvlib:Topic.lvclass
+270	13:37:50.2551555	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640037 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+271	13:37:50.2552909	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	2	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+272	13:37:50.2554054	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640037
+273	13:37:50.2554822	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640037
+274	13:37:50.2555232	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	2	AF:  Actor 6640037 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+275	13:37:50.2555556	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	0	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+276	13:37:50.2557911	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	0	AF:  Actor 6640037 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+277	13:37:50.2558751	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+278	13:37:50.2630991	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	2	AF:  Actor 6640028 received IViewable.lvlib:Initialize Front Panel Msg.lvclass
+279	13:37:50.2632069	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	1	AF:  Actor 6640028 received IObserver.lvlib:Subscribe Msg.lvclass
+280	13:37:50.2633008	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor 6640028 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+281	13:37:50.2633724	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	1	AF:  Actor 6640028 received IObserver.lvlib:Subscribe Msg.lvclass
+282	13:37:50.2634463	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor 6640028 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+283	13:37:50.2635211	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	3	AF:  Actor 6640028 received IObserver.lvlib:Subscribe Msg.lvclass
+284	13:37:50.2635893	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	3	AF:  Actor 6640028 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+285	13:37:50.2636518	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	3	AF:  Actor 6640028 received IObserver.lvlib:Subscribe Msg.lvclass
+286	13:37:50.2637114	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	3	AF:  Actor 6640028 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+287	13:37:50.2637920	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor 6640028 received IObserver.lvlib:Subscribe Msg.lvclass
+288	13:37:50.2638516	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640028 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+289	13:37:50.2639093	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor 6640028 received IObserver.lvlib:Subscribe Msg.lvclass
+290	13:37:50.2639679	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640028 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+291	13:37:50.2646870	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	2	AF:  Actor 6640020 created Actor 6640038 of type ValveModel.lvlib:ValveModel.lvclass
+292	13:37:50.2647604	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640038 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+293	13:37:50.2648520	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	3	AF:  Actor 6640038 sent IModel.lvlib:Launch Nested Models Msg.lvclass to Unregistered Entity 
+294	13:37:50.2649645	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	2	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+295	13:37:50.2650785	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	3	AF:  Actor 6640038 received IModel.lvlib:Launch Nested Models Msg.lvclass
+296	13:37:50.2674684	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	7	1	AF:  Actor 6640022 created Actor 6640039 of type RecipeListBoxView.lvlib:RecipeListboxView.lvclass
+297	13:37:50.2675499	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor 6640039 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+298	13:37:50.2676205	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	1	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+299	13:37:50.2676720	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	3	AF:  Actor 6640039 sent ActorEvents.lvlib:Launch Event Handlers Msg.lvclass to Unregistered Entity 
+300	13:37:50.2677602	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	3	AF:  Actor 6640039 sent IViewable.lvlib:Initialize Front Panel Msg.lvclass to Unregistered Entity 
+301	13:37:50.2679815	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640022 received ActorEvents.lvlib:Launch Event Handlers Msg.lvclass
+302	13:37:50.2681059	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	2	AF:  Actor 6640022 received IViewable.lvlib:Initialize Front Panel Msg.lvclass
+303	13:37:50.2682991	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640022 sent IViewable.lvlib:Insert Front Panel Msg.lvclass to Unregistered Entity 
+304	13:37:50.2683653	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	2	AF:  Actor 6640022 sent IViewable.lvlib:Insert Front Panel Msg.lvclass to Unregistered Entity 
+305	13:37:50.3013925	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Time-Delayed Message 31E00009 sent Mediator.lvlib:Update Front Panel Msg.lvclass to Actor 6640007
+306	13:37:50.3015294	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor 6640007 received Mediator.lvlib:Update Front Panel Msg.lvclass
+307	13:37:50.3069319	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+308	13:37:50.3075170	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640034 received ActorEvents.lvlib:Launch Event Handlers Msg.lvclass
+309	13:37:50.3194074	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	8	2	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+310	13:37:50.3547897	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+311	13:37:50.3549847	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640036 received ActorEvents.lvlib:Launch Event Handlers Msg.lvclass
+312	13:37:50.3577804	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	3	AF:  Actor Medator Actor created Actor 6640040 of type Mediator.lvlib:Topic.lvclass
+313	13:37:50.3580842	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640040 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+314	13:37:50.3587069	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	1	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+315	13:37:50.3593211	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640040
+316	13:37:50.3594503	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640040
+317	13:37:50.3594765	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor 6640040 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+318	13:37:50.3595399	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	3	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+319	13:37:50.3595790	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor 6640040 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+320	13:37:50.3596577	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+321	13:37:50.5200686	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	2	AF:  Actor 6640020 created Actor 6640041 of type ValveModel.lvlib:ValveModel.lvclass
+322	13:37:50.5201606	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640041 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+323	13:37:50.5202126	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640041 sent IModel.lvlib:Launch Nested Models Msg.lvclass to Unregistered Entity 
+324	13:37:50.5203256	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+325	13:37:50.5204358	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	3	AF:  Actor 6640041 received IModel.lvlib:Launch Nested Models Msg.lvclass
+326	13:37:50.5283789	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	0	AF:  Actor 6640034 created Actor 6640042 of type ActorEvents.lvlib:ControlEventHandler.lvclass
+327	13:37:50.5284624	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640042 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+328	13:37:50.5287818	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+329	13:37:50.5288481	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	1	AF:  Actor 6640034 received IViewable.lvlib:Initialize Front Panel Msg.lvclass
+330	13:37:50.5291142	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640039 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+331	13:37:50.5305714	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	7	1	AF:  Actor 6640036 created Actor 6640043 of type ActorEvents.lvlib:ControlEventHandler.lvclass
+332	13:37:50.5306563	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	1	AF:  Actor 6640043 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+333	13:37:50.5325555	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+334	13:37:50.5326161	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	1	AF:  Actor 6640036 received IViewable.lvlib:Initialize Front Panel Msg.lvclass
+335	13:37:50.5327358	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640036 received IViewable.lvlib:Insert Front Panel Msg.lvclass
+336	13:37:50.5332193	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640008 sent IViewable.lvlib:Resize Panel to Pane Msg.lvclass to Actor 6640016
+337	13:37:50.5332827	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640008 sent IViewable.lvlib:Resize Panel to Pane Msg.lvclass to Actor 6640019
+338	13:37:50.5333180	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	0	AF:  Actor 6640016 received IViewable.lvlib:Resize Panel to Pane Msg.lvclass
+339	13:37:50.5333590	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640008 sent IViewable.lvlib:Resize Panel to Pane Msg.lvclass to Actor 6640022
+340	13:37:50.5333824	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	8	2	AF:  Actor 6640019 received IViewable.lvlib:Resize Panel to Pane Msg.lvclass
+341	13:37:50.5334167	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640022 received IViewable.lvlib:Resize Panel to Pane Msg.lvclass
+342	13:37:50.5334429	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	8	2	AF:  Actor 6640008 sent IViewable.lvlib:Resize Panel to Pane Msg.lvclass to Actor 6640024
+343	13:37:50.5335588	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	8	2	AF:  Actor 6640008 sent IViewable.lvlib:Resize Panel to Pane Msg.lvclass to Actor 6640028
+344	13:37:50.5335755	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	1	AF:  Actor 6640024 received IViewable.lvlib:Resize Panel to Pane Msg.lvclass
+345	13:37:50.5336718	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	15	0	AF:  Actor 6640028 received IViewable.lvlib:Resize Panel to Pane Msg.lvclass
+346	13:37:50.5337047	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	8	2	AF:  Actor 6640008 sent IViewable.lvlib:Resize Panel to Pane Msg.lvclass to Unregistered Entity 
+347	13:37:50.5337858	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	8	2	AF:  Actor 6640008 sent IViewable.lvlib:Resize Panel to Pane Msg.lvclass to Actor 6640034
+348	13:37:50.5339918	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640022 sent IViewable.lvlib:Resize Panel to Pane Msg.lvclass to Actor 6640036
+349	13:37:50.5340342	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	8	2	AF:  Actor 6640034 received IViewable.lvlib:Resize Panel to Pane Msg.lvclass
+350	13:37:50.5341296	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor 6640022 sent IViewable.lvlib:Resize Panel to Pane Msg.lvclass to Unregistered Entity 
+351	13:37:50.5427775	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	1	AF:  Actor Medator Actor created Actor 6640044 of type Mediator.lvlib:Topic.lvclass
+352	13:37:50.5429458	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640044 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+353	13:37:50.5432429	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+354	13:37:50.5459280	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640044
+355	13:37:50.5460472	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	0	AF:  Actor 6640044 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+356	13:37:50.5460786	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	1	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640044
+357	13:37:50.5461926	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	0	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+358	13:37:50.5462470	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor 6640044 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+359	13:37:50.5463523	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	15	2	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+360	13:37:50.5477271	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	0	AF:  Actor 6640020 created Actor 6640045 of type ValveModel.lvlib:ValveModel.lvclass
+361	13:37:50.5477952	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640045 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+362	13:37:50.5478677	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640045 sent IModel.lvlib:Launch Nested Models Msg.lvclass to Unregistered Entity 
+363	13:37:50.5480480	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+364	13:37:50.5499296	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	0	AF:  Actor 6640045 received IModel.lvlib:Launch Nested Models Msg.lvclass
+365	13:37:50.5518536	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+366	13:37:50.5518722	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	3	AF:  Actor Medator Actor created Actor 6640046 of type Mediator.lvlib:Topic.lvclass
+367	13:37:50.5519475	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640046 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+368	13:37:50.5520863	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+369	13:37:50.5522255	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	8	2	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640046
+370	13:37:50.5523023	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	8	2	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640046
+371	13:37:50.5523295	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor 6640046 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+372	13:37:50.5523853	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	8	2	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+373	13:37:50.5524940	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	1	AF:  Actor 6640046 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+374	13:37:50.5525245	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+375	13:37:50.5537095	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640039 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+376	13:37:50.5539717	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640039 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+377	13:37:50.5567832	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+378	13:37:50.5583324	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640036 received IViewable.lvlib:Resize Panel to Pane Msg.lvclass
+379	13:37:50.5602016	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	7	0	AF:  Actor 6640020 created Actor 6640047 of type ValveModel.lvlib:ValveModel.lvclass
+380	13:37:50.5602803	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	0	AF:  Actor 6640047 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+381	13:37:50.5604066	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	0	AF:  Actor 6640047 sent IModel.lvlib:Launch Nested Models Msg.lvclass to Unregistered Entity 
+382	13:37:50.5605497	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+383	13:37:50.5605936	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	8	0	AF:  Actor 6640020 received IModel.lvlib:Launch Nested Models Msg.lvclass
+384	13:37:50.5608010	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	3	AF:  Actor 6640047 received IModel.lvlib:Launch Nested Models Msg.lvclass
+385	13:37:50.7302908	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+386	13:37:50.7305431	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor 6640039 received ActorEvents.lvlib:Launch Event Handlers Msg.lvclass
+387	13:37:50.7360992	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	1	AF:  Actor Medator Actor created Actor 6640048 of type Mediator.lvlib:Topic.lvclass
+388	13:37:50.7361660	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640048 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+389	13:37:50.7363352	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+390	13:37:50.7364082	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+391	13:37:50.7365593	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	8	1	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640048
+392	13:37:50.7366027	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor 6640048 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+393	13:37:50.7366614	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	8	1	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+394	13:37:50.7367525	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor 6640048 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+395	13:37:50.7367773	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+396	13:37:50.7424340	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	1	AF:  Actor 6640039 created Actor 6640049 of type ActorEvents.lvlib:ControlEventHandler.lvclass
+397	13:37:50.7428846	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+398	13:37:50.7432198	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640049 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+399	13:37:50.7435689	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+400	13:37:50.7450528	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	7	0	AF:  Actor Medator Actor created Actor 6640050 of type Mediator.lvlib:Topic.lvclass
+401	13:37:50.7451272	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	0	AF:  Actor 6640050 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+402	13:37:50.7452602	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	0	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+403	13:37:50.7452793	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	3	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+404	13:37:50.7454080	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640050
+405	13:37:50.7454900	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor 6640050 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+406	13:37:50.7455163	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640050
+407	13:37:50.7456083	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	0	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+408	13:37:50.7456517	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor 6640050 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+409	13:37:50.7457127	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+410	13:37:50.7467265	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	0	AF:  Actor 6640039 created Actor 6640051 of type ActorEvents.lvlib:ListboxEventHandler.lvclass
+411	13:37:50.7468018	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+412	13:37:50.7468605	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	2	AF:  Actor 6640051 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+413	13:37:50.7470274	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	2	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+414	13:37:50.7470364	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+415	13:37:50.7470760	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	15	1	AF:  Actor 6640039 received IViewable.lvlib:Initialize Front Panel Msg.lvclass
+416	13:37:50.7471804	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	15	1	AF:  Actor 6640039 received IViewable.lvlib:Insert Front Panel Msg.lvclass
+417	13:37:50.7484841	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	0	AF:  Actor Medator Actor created Actor 6640052 of type Mediator.lvlib:Topic.lvclass
+418	13:37:50.7485609	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640052 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+419	13:37:50.7486391	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	2	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+420	13:37:50.7487149	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+421	13:37:50.7488551	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640052
+422	13:37:50.7489509	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640052
+423	13:37:50.7489681	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor 6640052 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+424	13:37:50.7490201	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	1	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+425	13:37:50.7490758	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor 6640052 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+426	13:37:50.7491231	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+427	13:37:50.7496886	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+428	13:37:50.7517805	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+429	13:37:50.7519435	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	2	AF:  Actor 6640039 received IObserver.lvlib:Subscribe Msg.lvclass
+430	13:37:50.7520213	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	2	AF:  Actor 6640039 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+431	13:37:50.7521057	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640039 received IViewable.lvlib:Resize Panel to Pane Msg.lvclass
+432	13:37:50.7521767	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640039 received IObserver.lvlib:Subscribe Msg.lvclass
+433	13:37:50.7522587	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640039 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+434	13:37:50.7523312	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	2	AF:  Actor 6640039 received IObserver.lvlib:Subscribe Msg.lvclass
+435	13:37:50.7523889	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	2	AF:  Actor 6640039 sent IMediator.lvlib:Subscribe Msg.lvclass to Actor Medator Actor
+436	13:37:50.7532591	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	2	AF:  Actor Medator Actor created Actor 6640053 of type Mediator.lvlib:Topic.lvclass
+437	13:37:50.7533421	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640053 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+438	13:37:50.7535052	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+439	13:37:50.7535419	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+440	13:37:50.7536811	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	3	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640053
+441	13:37:50.7537503	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor 6640053 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+442	13:37:50.7537984	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	3	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+443	13:37:50.7538971	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor 6640053 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+444	13:37:50.7540135	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+445	13:37:50.9264783	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	1	AF:  Actor Medator Actor created Actor 6640054 of type Mediator.lvlib:Topic.lvclass
+446	13:37:50.9266014	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640054 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+447	13:37:50.9269309	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+448	13:37:50.9269313	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+449	13:37:50.9271297	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640054
+450	13:37:50.9272265	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor 6640054 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+451	13:37:50.9272608	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	0	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+452	13:37:50.9274525	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+453	13:37:50.9274821	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor 6640054 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+454	13:37:50.9370722	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	6	2	AF:  Actor Medator Actor created Actor 6640055 of type Mediator.lvlib:Topic.lvclass
+455	13:37:50.9371738	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640055 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+456	13:37:50.9374098	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+457	13:37:50.9375367	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640055
+458	13:37:50.9376854	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640055
+459	13:37:50.9378070	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	1	AF:  Actor 6640055 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+460	13:37:50.9378500	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+461	13:37:50.9378566	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+462	13:37:50.9380087	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	0	AF:  Actor 6640055 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+463	13:37:50.9380469	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+464	13:37:50.9381146	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	15	3	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+465	13:37:50.9402751	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	0	AF:  Actor Medator Actor created Actor 6640056 of type Mediator.lvlib:Topic.lvclass
+466	13:37:50.9403862	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor 6640056 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+467	13:37:50.9405050	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+468	13:37:50.9405188	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	3	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+469	13:37:50.9406247	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	8	1	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640056
+470	13:37:50.9407749	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	15	0	AF:  Actor 6640056 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+471	13:37:50.9408707	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	15	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640056
+472	13:37:50.9409389	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	15	0	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+473	13:37:50.9413504	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	1	AF:  Actor 6640056 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+474	13:37:50.9413814	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	0	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+475	13:37:50.9415383	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+476	13:37:50.9417405	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	0	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+477	13:37:50.9449982	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	7	1	AF:  Actor Medator Actor created Actor 6640057 of type Mediator.lvlib:Topic.lvclass
+478	13:37:50.9451227	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	1	AF:  Actor 6640057 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+479	13:37:50.9451952	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+480	13:37:50.9452495	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	1	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+481	13:37:50.9453511	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	2	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640057
+482	13:37:50.9454584	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor 6640057 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+483	13:37:50.9454836	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	3	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640057
+484	13:37:50.9455556	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	1	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+485	13:37:50.9455938	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+486	13:37:50.9456305	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640057 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+487	13:37:50.9457178	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	3	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+488	13:37:50.9458174	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+489	13:37:50.9478879	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	2	AF:  Actor Medator Actor created Actor 6640058 of type Mediator.lvlib:Topic.lvclass
+490	13:37:50.9479541	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor 6640058 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+491	13:37:50.9481625	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+492	13:37:50.9482665	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640058
+493	13:37:50.9483609	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	2	AF:  Actor 6640058 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+494	13:37:50.9484014	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	6	1	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640058
+495	13:37:50.9485273	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	1	AF:  Actor Medator Actor received IMediator.lvlib:Subscribe Msg.lvclass
+496	13:37:50.9485673	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	2	AF:  Actor 6640031 sent IObserver.lvlib:Subscribe Msg.lvclass to Unregistered Entity 
+497	13:37:50.9485864	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	0	AF:  Actor 6640058 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+498	13:37:50.9486818	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	7	3	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Unregistered Entity 
+499	13:37:50.9503936	AF Debug.lvlib:Generate Trace for New Actor.vi	User Defined	5	1	AF:  Actor Medator Actor created Actor 6640059 of type Mediator.lvlib:Topic.lvclass
+500	13:37:50.9504647	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor 6640059 sent AF Debug.lvlib:Register Actor Msg.lvclass to Unregistered Entity 
+501	13:37:50.9506106	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	7	2	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+502	13:37:50.9507179	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640059
+503	13:37:50.9507975	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	1	AF:  Actor Medator Actor sent Mediator.lvlib:Add Topic Subscriber Msg.lvclass to Actor 6640059
+504	13:37:50.9508180	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	0	AF:  Actor 6640059 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+505	13:37:50.9509549	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	0	AF:  Actor 6640059 received Mediator.lvlib:Add Topic Subscriber Msg.lvclass
+506	13:37:50.9844756	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor  received AF Debug.lvlib:Register Actor Msg.lvclass
+507	13:37:50.9846849	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor 6640031 received ActorEvents.lvlib:Launch Event Handlers Msg.lvclass
+508	13:37:50.9848012	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	5	1	AF:  Actor 6640031 received IViewable.lvlib:Initialize Front Panel Msg.lvclass
+509	13:37:50.9849038	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor 6640031 received IViewable.lvlib:Insert Front Panel Msg.lvclass
+510	13:37:51.2288389	AF Debug.lvlib:Generate Trace for Message.vi	User Defined	5	0	AF:  Time-Delayed Message 32500004 sent TemperaturePlotView.lvlib:Update Plot Msg.lvclass to Actor 6640028
+511	13:37:51.2289242	AF Debug.lvlib:Generate Trace for Stopped Time-Delayed Message.vi	User Defined	5	0	AF:  Time-Delayed Message 32500004 has stopped
+512	13:37:51.2289567	AF Debug.lvlib:Generate Trace for Received Message.vi	User Defined	6	2	AF:  Actor 6640028 received TemperaturePlotView.lvlib:Update Plot Msg.lvclass

@@ -1,0 +1,1 @@
+如果有匹配LabVIEW2020的VBAI，请将vision7.VBAImnu改名为vision7.mnu
